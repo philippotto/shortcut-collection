@@ -2,6 +2,7 @@
 #SingleInstance force
 Menu, Tray, Tip, Shortcut Collection
 
+#include windowSwitcher.ahk
 #include cursorNavigator.ahk
 #include powerManager.ahk
 #include mouseAndWindowMover.ahk
