@@ -1,7 +1,7 @@
 shortcut-collection
 ===================
 
-This is my collection of scripted shortcuts that has accumulated over the years. A lot of them use the capslock key as a modifier to avoid inconvenient movements of hands and fingers.
+This is my collection of scripted shortcuts that have accumulated over the years. A lot of them use the capslock key as a modifier to avoid inconvenient movements of hands and fingers.
 
 Download AutoHotkey to run the *.ahk files: http://ahkscript.org/download/
 
