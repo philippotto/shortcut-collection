@@ -14,4 +14,7 @@ Shortcuts
 shortcut-collection.ahk includes the following scripts:
 
 - cursorNavigator.ahk
+- powerManager.ahk
+- mouseAndWindowMover.ahk
+- numpadExtender.ahk
 - to be continued...
