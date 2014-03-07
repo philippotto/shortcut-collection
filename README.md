@@ -17,4 +17,5 @@ shortcut-collection.ahk includes the following scripts:
 - powerManager.ahk
 - mouseAndWindowMover.ahk
 - numpadExtender.ahk
+- windowSwitcher.ahk
 - to be continued...
