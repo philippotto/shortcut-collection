@@ -1,3 +1,5 @@
+SetCapsLockState, AlwaysOff
+
 Esc::Esc
 CapsLock & i::
 	SendPlay, {NumpadUp}
