@@ -14,8 +14,39 @@ Shortcuts
 shortcut-collection.ahk includes the following scripts:
 
 - cursorNavigator.ahk
+
+Combination | Command
+------------|---------- 
+Capslock + i        | move cursor up
+Capslock + j        | move cursor left
+Capslock + k        | move cursor down
+Capslock + l        | move cursor right
+Capslock + .        | move cursor to the left by 8 characters
+Capslock + -        | move cursor to the right by 8 characters
+Capslock + u        | move cursor to the start of the line
+Capslock + o        | move cursor to the end of the line
+Capslock + h        | move cursor (by one word) to the left
+Capslock + ö        | move cursor (by one word) to the right
+Capslock + Backspace | simulate delete-key
+Capslock + b        | CTRL + X
+Capslock + n        | CTRL + C
+Capslock + m        | CTRL + V
+Capslock + a/f/r/d/g | CTRL + a/f/r/d/g
+Windows + i         | scroll up
+Windows + k         | scroll down
+                    |
+Capslock + Alt + ... | for all commands which are moving the cursor, pressing Alt additionally, selects in the direction you are moving
+
 - powerManager.ahk
+
+Combination | Command
+------------|----------
+Windows + F1 | activates "High Performance Mode"
+Windows + F2 | activates "Balanced Mode"
+Windows + F3 | activates "Power Saver Mode"
+
 - mouseAndWindowMover.ahk
 - numpadExtender.ahk
 - windowSwitcher.ahk
 - to be continued...
+
