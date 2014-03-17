@@ -16,7 +16,7 @@ shortcut-collection.ahk includes the following scripts:
 - cursorNavigator.ahk
 
 Combination | Command
-------------|---------- 
+------------|----------
 Capslock + i        | move cursor up
 Capslock + j        | move cursor left
 Capslock + k        | move cursor down
@@ -25,13 +25,16 @@ Capslock + .        | move cursor to the left by 8 characters
 Capslock + -        | move cursor to the right by 8 characters
 Capslock + u        | move cursor to the start of the line
 Capslock + o        | move cursor to the end of the line
+Capslock + z        | move cursor to the start of the current buffer/file
+Capslock + p        | move cursor to the end of the current buffer/file
 Capslock + h        | move cursor (by one word) to the left
 Capslock + ö        | move cursor (by one word) to the right
-Capslock + Backspace | simulate delete-key
+Capslock + Alt + Backspace | simulate (ctrl +) delete-key
 Capslock + b        | CTRL + X
 Capslock + n        | CTRL + C
 Capslock + m        | CTRL + V
 Capslock + a/f/r/d/g | CTRL + a/f/r/d/g
+Capslock + Tab      | simulate CTRL + Tab
 Windows + i         | scroll up
 Windows + k         | scroll down
                     |
