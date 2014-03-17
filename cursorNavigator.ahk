@@ -82,6 +82,20 @@ CapsLock & o::
 		Send,+{End}
 return
 
+CapsLock & z::
+	if getkeystate("alt") = 0
+		Send,^{Home}
+	else
+		Send,+^{Home}
+return
+
+CapsLock & p::
+	if getkeystate("alt") = 0
+		Send,^{End}
+	else
+		Send,+^{End}
+return
+
 CapsLock & H::
 	if getkeystate("alt") = 0
 		Send,^{Left}
@@ -98,7 +112,13 @@ Capslock & SC027::
 		Send,+^{Right}
 return
 
-CapsLock & BS::Send,{Del}
+CapsLock & BS::
+	if getkeystate("alt") = 0
+		Send,{Del}
+	else
+		Send,^{Del}
+return
+
 CapsLock & b::Send ^x
 CapsLock & n::Send ^c
 CapsLock & m::Send ^v
@@ -129,4 +149,11 @@ CapsLock & Space::Send,{Space}
 
 CapsLock & g::
 	Send ^g
+return
+
+CapsLock & Tab::
+	if getkeystate("alt") = 0
+		Send ^{tab}
+	else
+		Send ^+{tab}
 return
