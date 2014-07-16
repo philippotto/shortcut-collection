@@ -29,7 +29,7 @@ Capslock + z        | move cursor to the start of the current buffer/file
 Capslock + p        | move cursor to the end of the current buffer/file
 Capslock + h        | move cursor (by one word) to the left
 Capslock + ö        | move cursor (by one word) to the right
-Capslock + Alt + Backspace | simulate (ctrl +) delete-key
+Capslock + (Alt +) Backspace | simulate (ctrl +) delete-key
 Capslock + b        | CTRL + X
 Capslock + n        | CTRL + C
 Capslock + m        | CTRL + V
