@@ -1,6 +1,16 @@
 ; ######################################## Global Functions ########################################
 #SingleInstance force
+SetCapsLockState, AlwaysOff
 Menu, Tray, Tip, Shortcut Collection
+
+#+r::
+	SplashTextOn, , , AlwaysOnTop = Reload
+	Sleep, 750
+	SplashTextOff
+	reload
+return
+
+#+e::edit
 
 #include windowSwitcher.ahk
 #include cursorNavigator.ahk
@@ -8,8 +18,6 @@ Menu, Tray, Tip, Shortcut Collection
 #include mouseAndWindowMover.ahk
 #include numpadExtender.ahk
 
-#+r::reload
-#+e::edit
 
 ; Auto-Reload AutoHotKey when this file is saved
 ~+^s::

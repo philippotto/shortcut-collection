@@ -1,4 +1,4 @@
-#Enter::Click
+#Enter::SendEvent {Click}
 
 #!Up::MouseMove -1, -50, 0, R
 +#!Up::MouseMove -1, -10, 0, R
@@ -41,3 +41,20 @@
 #+^Right::ResizeWin(100, 0)
 #+^Up::ResizeWin(0, -100)
 #+^Down::ResizeWin(0, 100)
+
+
+; Win + Shift + A sets active Window to AlwaysOnTop
+#+A::
+  WinSet, AlwaysOnTop, Toggle, A
+  State = Off
+  WinGet, ExStyle, ExStyle, A
+  if (ExStyle & 0x8)
+    State = On
+
+  SplashTextOn, , , AlwaysOnTop = %State%
+  Sleep, 750
+  SplashTextOff
+return
+
+#!space::WinSet, Transparent, 0, A
+#!space up::WinSet, Transparent, 255, A

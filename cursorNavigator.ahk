@@ -36,14 +36,16 @@ return
 CapsLock & 9::Click WheelUp
 CapsLock & 0::Click WheelDown
 
-Capslock & .::
+; ä
+CapsLock & SC028::
 	if getkeystate("alt") = 0
 		SendInput, {Left 8}
 	else
 		SendInput, +{Left 8}
 return
 
-Capslock & -::
+; #
+CapsLock & SC02B::
 	if getkeystate("alt") = 0
 		SendInput, {Right 8}
 	else
@@ -54,19 +56,20 @@ return
 	Click WheelDown
 return
 
-CapsLock & ,::
+Capslock & .::
+	if getkeystate("alt") = 0
+		Send,^{Up}
+	else
+		Send,+^{Up}
+return
+
+Capslock & -::
 	if getkeystate("alt") = 0
 		Send,^{Down}
 	else
 		Send,+^{Down}
 return
 
-CapsLock & 8::
-	if getkeystate("alt") = 0
-		Send,^{Up}
-	else
-		Send,+^{Up}
-return
 
 CapsLock & u::
 	if getkeystate("alt") = 0
@@ -139,6 +142,7 @@ Capslock & r::
 return
 
 Capslock & d::Send ^d
+Capslock & w::Send ^w
 
 ; Prevents CapsState-Shifting
 CapsLock & Space::Send,{Space}
