@@ -81,6 +81,24 @@ Windows + Shift + Space | makes the active window invisible as long as the short
 
 
 ## numpadExtender.ahk
+
+Combination | Command
+------------|----------
+Numpad0 & NumpadEnter | Backspace
+Numpad0 & NumpadDiv | (
+Numpad0 & NumpadMult | )
+Numpad0 & NumpadAdd | tab
+Numpad0 & NumpadDot | .
+Numpad0 & Numpad1 | Home
+Numpad0 & Numpad2 | End
+Numpad0 & Numpad3 | Pgdn
+Numpad0 & Numpad4 | Left
+Numpad0 & Numpad5 | Down
+Numpad0 & Numpad6 | Right
+Numpad0 & Numpad7 | Tab
+Numpad0 & Numpad8 | Up
+Numpad0 & Numpad9 | Pgup
+
 ## windowSwitcher.ahk
 ## to be continued...
 
