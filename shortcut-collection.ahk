@@ -4,8 +4,8 @@ SetCapsLockState, AlwaysOff
 Menu, Tray, Tip, Shortcut Collection
 
 #+r::
-	SplashTextOn, , , AlwaysOnTop = Reload
-	Sleep, 750
+	SplashTextOn, , , Reload in 500ms
+	Sleep, 500
 	SplashTextOff
 	reload
 return
