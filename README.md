@@ -100,5 +100,12 @@ Numpad0 & Numpad8 | Up
 Numpad0 & Numpad9 | Pgup
 
 ## windowSwitcher.ahk
+
+Combination | Command
+------------|---------
+Windows + Tab | Switch between all windows of the current application (relies on the window class).
+Windows + Alt + {letter} | Switches between all windows whose titles begin with {letter} (between A - Z).
+
+
 ## to be continued...
 
