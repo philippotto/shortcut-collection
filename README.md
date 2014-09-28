@@ -107,5 +107,5 @@ Windows + Tab | Switch between all windows of the current application (relies on
 Windows + Alt + {letter} | Switches between all windows whose titles begin with {letter} (between A - Z).
 
 
-## to be continued...
-
+## License
+MIT &copy; Philipp Otto 2014
