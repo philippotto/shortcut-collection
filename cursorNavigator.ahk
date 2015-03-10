@@ -36,6 +36,9 @@ return
 CapsLock & 9::Click WheelUp
 CapsLock & 0::Click WheelDown
 
+Capslock & 7::Send, ^{PgUp}
+Capslock & 8::Send, ^{PgDn}
+
 ; ä
 CapsLock & SC028::
 	if getkeystate("alt") = 0
