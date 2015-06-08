@@ -53,7 +53,9 @@ Capslock + n        | CTRL + C
 Capslock + m        | CTRL + V
 Capslock + w        | CTRL + W
 Capslock + a/f/r/d/g | CTRL + a/f/r/d/g
-Capslock + Tab      | simulate CTRL + Tab
+Capslock + Tab      | CTRL + Tab
+Capslock + 7        | CTRL + page up
+Capslock + 8        | CTRL + page down
 Windows + i         | scroll up
 Windows + k         | scroll down
                     |
