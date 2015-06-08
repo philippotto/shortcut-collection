@@ -80,3 +80,14 @@ return
 	KeyWait LWin
 	listIndex = 1
 return
+
+
+
+#IfWinActive ahk_class TaskSwitcherWnd
+
+!i::up
+!j::left
+!k::down
+!l::right
+
+#IfWinActive

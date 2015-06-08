@@ -106,6 +106,7 @@ Combination | Command
 Windows + Tab | Switch between all windows of the current application (relies on the window class).
 Windows + Alt + {letter} | Switches between all windows whose titles begin with {letter} (between A - Z).
 
+If the Windows Task Switcher is active (invoked via Alt+Tab), you can keep pressing alt and navigate with i, j, k, l for up, left, down, right.
 
 ## License
 MIT &copy; Philipp Otto 2014
