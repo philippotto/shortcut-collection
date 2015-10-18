@@ -46,7 +46,7 @@ activateGroup(letter, exception) {
 
 listIndex = 1
 #WinActivateForce
-#tab::
+#!tab::
 	Beginning:
 	WinGetClass, activeWindowClass,  A
 	WinGet,      activeWindowID, ID, A
@@ -83,7 +83,7 @@ return
 
 
 
-#IfWinActive ahk_class TaskSwitcherWnd
+#IfWinActive ahk_class MultitaskingViewFrame
 
 !i::up
 !j::left
@@ -91,3 +91,7 @@ return
 !l::right
 
 #IfWinActive
+
+Capslock & ,::Send, #^{Left}
+Capslock & .::Send, #^{Right}
+

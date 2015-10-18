@@ -59,12 +59,12 @@ return
 	Click WheelDown
 return
 
-Capslock & .::
-	if getkeystate("alt") = 0
-		Send,^{Up}
-	else
-		Send,+^{Up}
-return
+; Capslock & .::
+; 	if getkeystate("alt") = 0
+; 		Send,^{Up}
+; 	else
+; 		Send,+^{Up}
+; return
 
 Capslock & -::
 	if getkeystate("alt") = 0

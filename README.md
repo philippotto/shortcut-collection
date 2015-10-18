@@ -45,8 +45,8 @@ Capslock + z        | move cursor to the start of the current buffer/file
 Capslock + p        | move cursor to the end of the current buffer/file
 Capslock + h        | move cursor (by one word) to the left
 Capslock + ö        | move cursor (by one word) to the right
-Capslock + .        | simulate CTRL + Up (this moves the cursor by one paragraph in most programs)
-Capslock + -        | simulate CTRL + Down (this moves the cursor by one paragraph in most programs)
+Capslock + .        | move to previous virtual desktop (Windows 10 only)
+Capslock + -        | move to next virtual desktop (Windows 10 only)
 Capslock + (Alt +) Backspace | simulate (CTRL +) delete-key
 Capslock + b        | CTRL + X
 Capslock + n        | CTRL + C

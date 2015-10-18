@@ -32,10 +32,10 @@
     WinMove,A,,%X%, %Y%, %Width%, %Height%
   }
 
-#^Left::MoveWin(-100, 0)
-#^Right::MoveWin(100, 0)
-#^Up::MoveWin(0, -100)
-#^Down::MoveWin(0, 100)
+#+Left::MoveWin(-100, 0)
+#+Right::MoveWin(100, 0)
+#+Up::MoveWin(0, -100)
+#+Down::MoveWin(0, 100)
 
 #+^Left::ResizeWin(-100, 0)
 #+^Right::ResizeWin(100, 0)
